@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Barlow+Condensed&family=Lobster&family=Oxygen&family=Poppins:wght@300;400;500;600&family=Quintessential&family=Roboto+Condensed&family=Supermercado+One&family=Titillium+Web&display=swap');
+
+
+:root
+{
+	
+	--sky: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+
+}
+
+*
+{
+   margin: 0;
+   padding: 0;
+   
+ }
+
+html,body
+{
+	margin: 0%;
+	box-sizing: border-box;
+	font-family: system-ui;
+	overflow-x: hidden;
+	background: var(--sky);
+	font-family: system-ui;
+	min-height: 100vh;
+   background-size: cover;
+	
+
+}
+
+h4
+{
+   color: #ff0000;
+   font-family: Poppins;
+   font-size: 50px;
+   display: flex;
+    justify-content: center;
+    margin-top: 70px;
+   
+
+}
+
+.card-container
+{
+	background: white;
+	border: 2px solid whitesmoke;
+	border-radius: 18px;
+   width: 575px;
+   height: 356.1px;
+   padding: 0px;
+   margin-left: 510px;
+   margin-top: 130px;
+   
+
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.card-head
+{
+	/*position: relative;
+   background: #c9184a ;
+   border: 2px none;
+   border-radius: 10px;
+   width: 575px;
+   height: 110px;
+   display: flex;
+   justify-content: center;
+   align-items: center;*/
+
+height: 55px;
+background: #c9184a;
+padding: 20px;
+padding-top: 20px;
+text-align: center;
+border-radius: 10px;
+border-bottom-left-radius: 0px;
+   border-bottom-right-radius: 0px;
+
+
+}
+
+.college-logo
+{
+     width: 100%;
+     margin-top: -5px;
+}
+
+.college-logo img
+{
+   width: 140px;
+   height: auto;
+   float: left;
+
+}
+
+.card-head h3
+{
+	
+   color: whitesmoke;
+   width: 100%;
+   font-size: 30px;
+   font-family: sans-serif;
+   font-weight: initial bold;
+
+}
+
+h2{
+
+	color: whitesmoke;
+   width: 100%;
+   font-size: 13px;
+   font-family: Poppins;
+   font-weight: initial; 
+}
+
+h1
+{
+	color: whitesmoke;
+   width: 100%;
+   font-size: 12px;
+   font-family: system-ui;
+   font-weight: initial; 
+}
+
+.card-body-title h2
+
+{
+   margin-top: 5px;
+   text-align: center;
+color: black;
+font-size: 22px;
+font-family: Roboto ;
+font-weight: bold;
+border: 2px ;
+background-color: #08a045;
+border-radius: 4px;
+width: 35%;
+margin-left: 185px;
+
+}
+
+
+
+.student-photo img
+{
+
+   margin-left: 425px;
+   width: 130px;
+   height: 135px;
+   display: flex;
+   margin-top: -200px;
+   cursor: pointer;
+
+}
+.student-info span
+{
+   color: red;
+   display: flex;
+   margin-right: 50px;
+   font-family: system-ui;
+   font-weight: bold;
+}
+.student-info p
+{ 
+
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 13px;
+   justify-content: justify;
+   font-weight: bold;
+   font-size: 15px;
+
+}
+
+.std-name span
+{ 
+   
+   font-weight: bolder;
+   color: #ef233c;
+   display: flex;
+   margin-top: -154px;
+   margin-left: 154.5px;
+
+}
+
+
+
+.card-footer p
+{   
+   text-align: center;
+   border: 1px;
+   font-size: 12px;
+   font-family: Poppins;
+   margin-top: 13px;
+   font-weight: inherit;
+   color: whitesmoke;
+   background-color: #1e6091;
+   width: 100%;
+   height: 20px;
+   border-radius: 0px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+
+}
+
+button.btn
+{
+   font-size: 16px;
+    font-weight: 500;
+    padding: 12px 35px;
+    margin-left: 515px;
+    margin-top: 30px;
+    color: white;
+    border-radius: 40px;
+    display: inline-block;
+    white-space: nowrap;
+    border: none;
+    background: #c9184a;
+    transition: all 0.3s ease;
+
+}
+
+button.btn:hover
+{
+   background: #560bad;
+   cursor: pointer;
+
+
+}
+
+ 
+
+ /*responsiveness ki mkc*/
+  @media only screen and (max-width:  1500px)
+  {
+     .card-container
+     {
+         margin-left: 475px;
+         
+     }
+  } 
+
+   @media only screen and (max-width:  1390px)
+  {
+     .card-container
+     {
+         margin-left: 420px;
+         
+     }
+  } 
+
+ @media only screen and (max-width:  1300px)
+  {
+     .card-container
+     {
+         margin-left: 375px;
+         
+     }
+  } 
+
+   @media only screen and (max-width:  1200px)
+  {
+     .card-container
+     {
+         margin-left: 330px;
+         
+     }
+  } 
+
+
+  @media only screen and (max-width:  1110px)
+  {
+     .card-container
+     {
+         margin-left: 265px;
+     }
+  } 
+
+  @media only screen and (max-width:  1050px)
+  {
+     .card-container
+     {
+         margin-left: 235px;
+
+     }
+      h4
+     {
+         font-size:  30px;
+         
+     }
+  } 
+
+  
+
+  @media only screen and (max-width:  980px)
+  {
+     .card-container
+     {
+         margin-left: 220px;
+     }
+  } 
+
+
+  @media only screen and (max-width:  910px)
+  {
+     .card-container
+     {
+         margin-left: 190px;
+     }
+  } 
+
+  @media only screen and (max-width:  830px)
+  {
+     .card-container
+     {
+         margin-left: 128px;
+     }
+  } 
+
+  @media only screen and (max-width:  765px)
+  {
+     .card-container
+     {
+         margin-left: 108px;
+     }
+  } 
+
+    @media only screen and (max-width:  730px)
+  {
+     .card-container
+     {
+         margin-left: 85px;
+     }
+  } 
+
+    @media only screen and (max-width:  700px)
+  {
+     .card-container
+     {
+         margin-left: 65px;
+     }
+  } 
+
+   @media only screen and (max-width:  660px)
+  {
+     .card-container
+     {
+         margin-left: 50px;
+     }
+  } 
+
+   @media only screen and (max-width:  635px)
+  {
+     .card-container
+     {
+         margin-left: 35px;
+
+     }
+  } 
+
+   @media only screen and (max-width:  620px)
+  {
+     .card-container
+     {
+         margin-left: 20px;
+   
+     }
+      h4
+     {
+         font-size:  20px;
+         
+     }
+  } 
+
+@media only screen and (max-width:  420px)
+  {
+       h4
+     {
+         font-size:  18px;
+         
+     }
+  } 
